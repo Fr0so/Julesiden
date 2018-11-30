@@ -15,7 +15,7 @@ $('#afspil').click(function(){
 
 $('#skip').click(function(){
 
-	var nr = Math.random()*24+1;
+	var nr = Math.random()*25+1;
 	nr = Math.round(nr);
 	$('#sang').attr('src','Julesiden-musik/'+nr+'.mp3');
 	$('#musik')[0].load();
@@ -28,8 +28,7 @@ $('#skip').click(function(){
 
 
 $('#santa').click(function(){
-	$('#hoho')[0].play();
-
+$('#hoho')[0].play();
 });
 
 
