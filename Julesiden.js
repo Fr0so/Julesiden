@@ -15,7 +15,7 @@ $('#afspil').click(function(){
 
 $('#skip').click(function(){
 
-	var nr = Math.random()*25+1;
+	var nr = Math.random()*28+1;
 	nr = Math.round(nr);
 	$('#sang').attr('src','Julesiden-musik/'+nr+'.mp3');
 	$('#musik')[0].load();
@@ -49,7 +49,7 @@ var hours = Math.floor(time%86400000/3600000);
 $('#hours').text(hours);
 
 var min = Math.floor(time%86400000%3600000/60000);
-
+	
 $('#min').text(min);
 
 var sec = Math.floor(time%86400000%3600000%60000/1000);
